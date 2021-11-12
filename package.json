@@ -37,6 +37,7 @@
     "dev": "npx webpack-dev-server -d",
     "devOpen": "npx webpack-dev-server -d --host \"0.0.0.0\"",
     "test": "npx webpack --config webpack.config.test.js && node distTest/index.js",
-    "testFast": "npx webpack --config webpack.config.test.js --mode production && node distTest/index.js"
+    "testFast": "npx webpack --config webpack.config.test.js --mode production && node distTest/index.js",
+    "srv": "npx webpack --config webpack.config.srv.js"
   }
 }
